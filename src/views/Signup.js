@@ -7,8 +7,8 @@ import useForm from '../hooks/useForm';
 
 const CREATE_MUTATION =  gql`
 
-	mutation ADDAuthor($data:AuthorInput!){
-		createNewAuthor(data:$data){
+	mutation ADDUser($data:UserInput!){
+		createNewUser(data: $data) {
 			_id,
 			email
 		}

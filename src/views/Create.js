@@ -8,8 +8,8 @@ import authHOC from '../utils/authHOC';
 
 const CREATE_POST = gql`
 
-    mutation createPost($data:PostInput!){
-        createNewPost(data:$data){
+    mutation createPost($data:TestInput!){
+        createNewTest(data:$data){
             _id
         }
 
