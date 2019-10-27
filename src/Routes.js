@@ -8,6 +8,7 @@ import Create from './views/Create';
 import Me from './views/Me';
 import Update from './views/Update';
 import authHOC from './utils/authHOC';
+import Speech from './views/Speech';
 
 
 function Logout () {
@@ -27,6 +28,7 @@ function Routes() {
 			<Route exact path="/post/:id" component={Post} />
             <Route exact path="/new" component={Create} />
             <Route exact path="/me" component={Me} />
+            <Route exact path="/speech" component={Speech} />
             <Route exact path="/update/:id" component={Update} />
 
         </>

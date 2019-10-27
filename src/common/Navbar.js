@@ -78,9 +78,9 @@ class Navbar extends Component {
                     </Link>
                   </li>
                   <li  className="nav-item">
-                    {/* <Link  className="nav-link" to="/signup">
-                      signup
-                    </Link> */}
+                    <Link  className="nav-link" to="/speech">
+                      Herramienta de audio para texto.
+                    </Link> 
                   </li>
                 </>
               )}
@@ -92,5 +92,4 @@ class Navbar extends Component {
   }
 }
 
-export default Navbar; //<ES6 Babel
-//module.exports = Navbar; ES5 CommonJs
+export default Navbar;
